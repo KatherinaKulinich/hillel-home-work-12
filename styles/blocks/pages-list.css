@@ -1,0 +1,23 @@
+.pages-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+.pages-list__number {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #828282;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.pages-list__number:last-child {
+    margin-right: 0;
+}
+
+.pages-list__number--active {
+    color: #219653;
+}

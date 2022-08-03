@@ -1,2 +1,14 @@
 @import "./normalize.css";
 @import "./fonts.css";
+@import "./settings.css";
+@import "./blocks/body.css";
+@import "./blocks/logo.css";
+@import "./blocks/navigation.css";
+@import "./blocks/pages.css";
+@import "./blocks/card.css";
+@import "./blocks/product-list.css";
+@import "./blocks/form.css";
+@import "./blocks/pages-list.css";
+@import "./blocks/contacts.css";
+@import "./blocks/tel.css";
+

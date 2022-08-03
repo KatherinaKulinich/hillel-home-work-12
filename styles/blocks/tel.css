@@ -1,0 +1,19 @@
+.tel {
+    display: flex;
+    gap: 11px;
+}
+
+.tel__number {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+}
+
+.tel__number--black {
+    color: #000000;
+}
+
+.tel__number--white {
+    color: #FFFFFF;
+}

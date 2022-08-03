@@ -1,0 +1,26 @@
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacts__delivery {
+    display: flex;
+    gap: 47px;
+    justify-content: space-between;
+}
+
+.contacts__text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.contacts__socials {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-left: -60px;
+}

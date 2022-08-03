@@ -1,0 +1,32 @@
+.form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form__text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #4F4F4F;
+    padding: 4px 12px;
+}
+
+.form__input {
+    display: none;
+}
+
+.form__text:checked {
+    border: 1px solid #3ECF5E;
+    border-radius: 5px;
+}
+
+.form__input:nth-of-type(input):checked {
+    border: 1px solid #3ECF5E;
+    border-radius: 5px;
+} 
+
+.form__choise label:checked + input[type=radio] {
+    border: 1px solid #3ECF5E;
+    border-radius: 5px;
+}

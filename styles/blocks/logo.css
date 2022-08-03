@@ -1,0 +1,39 @@
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 33px;
+    padding-bottom: 21px;
+}
+
+.logo__information {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.logo__icons {
+    display: flex;
+    gap: 15px;
+}
+
+.logo__buy {
+    margin: 0;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    padding-top: 3px;
+    border-radius: 50%;
+    background-color: #06D10E;
+    position: absolute;
+    top: -7px;
+    right: -7px;
+}
+
+.logo__basket {
+    position: relative;
+}

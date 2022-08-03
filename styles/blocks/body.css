@@ -1,0 +1,17 @@
+.body__header {
+    background-color: #FFFFFF;
+    box-shadow: 0 10px 60px 0 rgba(0, 0, 0, 0.05), 0 -5px 15px 0 rgba(255, 255, 255, 0.44);
+    
+}
+
+.body__main {
+    padding-top: 75px;
+    padding-bottom: 100px;
+    background-color: #F9F9F9;
+}
+
+.body__footer {
+    padding-top: 100px;
+    padding-bottom: 130px;
+    background-color: #333333;
+}

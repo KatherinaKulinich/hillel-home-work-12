@@ -1,0 +1,13 @@
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-list__item:nth-child(n+5) {
+    margin-bottom: 50px;
+}
+
+.product-list__item {
+    width: 315px;
+}

@@ -1,0 +1,35 @@
+.pages {
+    display: flex;
+}
+
+.pages__catalog {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #BDBDBD;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+
+.pages__catalog:nth-child(1) {
+    margin-right: 15px;
+}
+
+
+.pages__catalog--current::before {
+    content: url(../../images/dot.png);
+}
+
+.pages__back {
+    display: block;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #333333;
+    text-decoration: none;
+    margin-bottom: 44px;
+}
+
+.pages__back::before {
+    content: url(../../images/arrow-back.png);
+}

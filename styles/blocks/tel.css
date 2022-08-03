@@ -10,10 +10,10 @@
     text-decoration: none;
 }
 
-.tel__number--black {
+.tel__number--dark {
     color: #000000;
 }
 
-.tel__number--white {
+.tel__number--light {
     color: #FFFFFF;
 }

@@ -1,5 +1,6 @@
 .pages {
     display: flex;
+    align-items: center;
 }
 
 .pages__catalog {
@@ -12,12 +13,18 @@
 }
 
 .pages__catalog:nth-child(1) {
-    margin-right: 15px;
+    margin-right: 35px;
 }
-
 
 .pages__catalog--current::before {
     content: url(../../images/dot.png);
+    position: absolute;
+    top: -3px;
+    left: -20px;
+}
+
+.pages__catalog--current {
+    position: relative;
 }
 
 .pages__back {
@@ -32,4 +39,5 @@
 
 .pages__back::before {
     content: url(../../images/arrow-back.png);
+    margin-right: 10px;
 }

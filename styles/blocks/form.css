@@ -4,6 +4,10 @@
     align-items: center;
 }
 
+.form .form__input[type='radio'] {
+    display: none;
+}
+
 .form__text {
     font-weight: 500;
     font-size: 18px;
@@ -12,21 +16,9 @@
     padding: 4px 12px;
 }
 
-.form__input {
-    display: none;
-}
-
-.form__text:checked {
+.form .form__input[type='radio']:checked + .form__text {
     border: 1px solid #3ECF5E;
     border-radius: 5px;
 }
 
-.form__input:nth-of-type(input):checked {
-    border: 1px solid #3ECF5E;
-    border-radius: 5px;
-} 
 
-.form__choise label:checked + input[type=radio] {
-    border: 1px solid #3ECF5E;
-    border-radius: 5px;
-}

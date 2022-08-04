@@ -8,9 +8,9 @@
     <title>HW-12</title>
 </head>
 <body class="body">
-    <header class="body__header">
+    <header class="body__header header">
         <div class="wrapper">
-            <div class="logo">
+            <div class="header__logo logo">
                 <a href="">
                     <img 
                     src="./images/logo.png" 
@@ -20,31 +20,30 @@
                 >
                 </a>
                 <div class="logo__information">
-                    <div class="tel">
-                        <img 
-                            src="./images/icon-phone.png" 
-                            alt="icon-phone" 
-                            width="19" 
-                            height="19"
-                        >
+                    <div class="tel"> 
                         <a class="tel__number tel__number--dark" href="tel:+89209994350">
+                            <img 
+                                src="./images/icon-phone.png" 
+                                alt="icon-phone" 
+                                width="19" 
+                                height="19"
+                                class="tel__icon"
+                            >
                             8 920 999 43 50
                         </a>
                     </div>
                     <div class="logo__icons">
-                        <div class="logo__basket">
-                            <a  href="">
-                                <img 
-                                    src="./images/icon-basket.png" 
-                                    alt="icon-basket" 
-                                    width="30" 
-                                    height="30"
-                                >
-                            </a>
+                        <a  class="logo__basket" href="">
+                            <img 
+                                src="./images/icon-basket.png" 
+                                alt="icon-basket" 
+                                width="30" 
+                                height="30"
+                            >
                             <p class="logo__buy">
                                 2
                             </p>
-                        </div>
+                        </a>
                         <a href="">
                             <img 
                                 src="./images/icon-account.png" 
@@ -93,21 +92,21 @@
                         placeholder="Поиск"
                         class="search-form__input"
                     >
-                    <a href="" class="search-form__button">
+                    <button type="submit" class="search-form__button">
                         <img 
                             src="./images/icon-search.png" 
                             alt="icon-search" 
                             width="20" 
                             height="20"
                         >
-                    </a>
+                    </button>
                 </form>
             </div>
         </div>
     </header>
     <main class="body__main">
         <div class="wrapper">
-            <div class="pages">
+            <div class="body__pages pages">
                 <a class="pages__catalog" href="">
                     Каталог
                 </a>
@@ -754,16 +753,17 @@
                         >
                     </a>
                 </div>
-                <div class="tel">
-                    <img 
-                    src="./images/icon-phone-white.png" 
-                    alt="icon-phone" 
-                    width="20" 
-                    height="20"
-                >
-                <a class="tel__number tel__number--light" href="tel:+89209994350">
-                    8 920 999 43 50
-                </a>
+                <div class="tel">   
+                    <a class="tel__number tel__number--light" href="tel:+89209994350">
+                        <img 
+                            src="./images/icon-phone-white.png" 
+                            alt="icon-phone" 
+                            width="20" 
+                            height="20"
+                            class="tel__icon"
+                        >
+                        8 920 999 43 50
+                    </a>
                 </div>
             </div>
         </div>

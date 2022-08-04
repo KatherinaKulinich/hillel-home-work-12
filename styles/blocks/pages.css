@@ -9,32 +9,29 @@
     line-height: 21px;
     color: #BDBDBD;
     text-decoration: none;
-    margin-bottom: 30px;
 }
 
 .pages__catalog:nth-child(1) {
     margin-right: 35px;
 }
 
-.pages__catalog--current::before {
+.pages__catalog:not(:last-child)::after {
     content: url(../../images/dot.png);
     position: absolute;
     top: -3px;
-    left: -20px;
+    right: -20px;
 }
 
-.pages__catalog--current {
+.pages__catalog {
     position: relative;
 }
 
 .pages__back {
-    display: block;
     font-weight: 500;
     font-size: 20px;
     line-height: 23px;
     color: #333333;
     text-decoration: none;
-    margin-bottom: 44px;
 }
 
 .pages__back::before {

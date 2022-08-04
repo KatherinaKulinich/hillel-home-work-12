@@ -1,6 +1,5 @@
 .tel {
     display: flex;
-    gap: 11px;
 }
 
 .tel__number {
@@ -8,6 +7,11 @@
     font-size: 18px;
     line-height: 21px;
     text-decoration: none;
+}
+
+.tel__icon {
+    vertical-align: text-bottom;
+    margin-right: 11px;
 }
 
 .tel__number--dark {
